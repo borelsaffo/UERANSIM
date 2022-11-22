@@ -65,8 +65,33 @@ VNF se trouve dans /etc/open5gs comme le montre l'image suivante
 ###Configuration UDR
 ###Configuration 
 
-
 Configuration 
+![image](https://user-images.githubusercontent.com/27947973/203410210-c417be97-7932-4b5d-b8bd-f623e82deb04.png)
+
+root@vagrant:/etc/open5gs# sudo systemctl restart open5gs-amfd
+root@vagrant:/etc/open5gs# sudo systemctl status  open5gs-amfd
+
+![image](https://user-images.githubusercontent.com/27947973/203410284-316f4ce6-b787-4a5f-9278-ffec9eec1267.png)
+![image](https://user-images.githubusercontent.com/27947973/203410661-733de9ee-4fb7-4af9-9c42-cc63bb9a042c.png)
+![image](https://user-images.githubusercontent.com/27947973/203410817-e381e7d8-9c2f-4708-95da-d209791fdb7c.png)
+![image](https://user-images.githubusercontent.com/27947973/203410987-00c38721-e728-4d92-b1e1-00e6dcf602d1.png)
+
+![image](https://user-images.githubusercontent.com/27947973/203413838-f7db9bdd-1042-44ef-a3c8-3702437bd223.png)
+![image](https://user-images.githubusercontent.com/27947973/203413640-73406788-74f5-4b9e-8d49-aa52df3ac5d0.png)
+root@borel:/home/vagrant/UERANSIM/UERANSIM# build/nr-ue  -c  config/open5gs-ue.yaml
+![image](https://user-images.githubusercontent.com/27947973/203414492-82277d91-3e71-43ab-aaf0-0ac6677e5615.png)
+![image](https://user-images.githubusercontent.com/27947973/203414626-8ea9c814-69c3-48f5-bb38-b1806bc5548a.png)
+![image](https://user-images.githubusercontent.com/27947973/203414786-8213b0c6-f669-421a-b6fe-254575bdcfaa.png)
+lorsque le MCC et MCN du gnodeB qu'on veut associer a un AMF ne correspond pas au paramètre MCC et MNC definit dans le fichier
+
+
+de configuration de l'amf (amf.yml) 
+coté Coeur, le GnodeB ne pourra pas se connecter a L'amf via l'interface N2
+![image](https://user-images.githubusercontent.com/27947973/203417744-eb34ce6c-88aa-4590-a998-9bdceeb282b3.png)
+![image](https://user-images.githubusercontent.com/27947973/203418221-a13c2551-8b09-4ccd-801f-b062ee3a127b.png)
+
+
+
 
 
 
