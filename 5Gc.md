@@ -90,7 +90,18 @@ coté Coeur, le GnodeB ne pourra pas se connecter a L'amf via l'interface N2
 ![image](https://user-images.githubusercontent.com/27947973/203417744-eb34ce6c-88aa-4590-a998-9bdceeb282b3.png)
 ![image](https://user-images.githubusercontent.com/27947973/203418221-a13c2551-8b09-4ccd-801f-b062ee3a127b.png)
 
-
+gnodeB2
+![image](https://user-images.githubusercontent.com/27947973/203419016-b1ca031c-ee7d-43ac-aa5d-e4548e3c376d.png)
+échanges:
+![image](https://user-images.githubusercontent.com/27947973/203420975-9b2ef26b-8a49-4228-9808-7bf290a74d6f.png)
+![image](https://user-images.githubusercontent.com/27947973/203420556-6d4707db-4cda-4121-adce-8b851856e820.png)
+![image](https://user-images.githubusercontent.com/27947973/203420681-e7829c01-2490-4a68-9f3d-1ea5385995fb.png)
+sctp hearthbeat pour le maintient pour le control de la session d'échange
+![image](https://user-images.githubusercontent.com/27947973/203420854-fb9d14b7-3af8-4a4b-b03a-6ed98921c1e8.png)
+gnodeB quand l'ue essaye de se connecté
+![image](https://user-images.githubusercontent.com/27947973/203422031-2a03c824-c50a-408a-85f3-efa6b293453d.png)
+![image](https://user-images.githubusercontent.com/27947973/203422171-e51f2f3e-998f-4481-a091-8f17f4d1d10e.png)
+![image](https://user-images.githubusercontent.com/27947973/203422310-91eb5ced-2f55-4687-99c0-0ff48b9d918d.png)
 
 
 
