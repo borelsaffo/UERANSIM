@@ -48,4 +48,26 @@ lancé mongodb au démarrage du système
 affiché le status de mongodb
 ![image](https://user-images.githubusercontent.com/27947973/203406386-fbefc1c2-be90-403e-bc2a-d1a7b6486495.png)
 
+### Installation Open5Gs
+sudo add-apt-repository ppa:open5gs/latest
+![image](https://user-images.githubusercontent.com/27947973/203406810-69c06864-0acf-4d71-a161-9e9fb5014224.png)
+apt-get update
+![image](https://user-images.githubusercontent.com/27947973/203406990-5ad6bb66-4d01-4bcd-a165-d3cb808a9f58.png)
+sudo apt install open5gs
+![image](https://user-images.githubusercontent.com/27947973/203407104-d2bf3dda-6456-4e05-892a-5dac5c3ed68f.png)
+Une fois l'installation terminé, le dossier d'installation et les fichiers de configurations de chaque 
+VNF se trouve dans /etc/open5gs comme le montre l'image suivante
+![image](https://user-images.githubusercontent.com/27947973/203407454-c3e8080d-33b8-4097-8a95-99dce5a974b3.png)
+
+
+###Configuration amf 
+###Configuration Upf
+###Configuration UDR
+###Configuration 
+
+
+Configuration 
+
+
+
 
